@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'gilroy';
+    src: url(Gilroy-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy", Arial, Helvetica, sans-serif;
+
+}
+
+
+body {
+    text-align: center;
+    height: 100vh;
+    width: 100wh;
+    background-color: black;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.image {
+    opacity: 0.3;
+}
+
+h2{
+    letter-spacing: 3px;
+    font-size: 30px;
+
+}
+h5{
+    margin-top: 5px;
+    font-size: 15px;
+
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.button {
+    letter-spacing: 6px;
+    cursor: pointer;
+    padding: 5px;
+    height: 40px;
+    margin-top: 10px;
+    width: 170px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: aliceblue;
+}
+
+.button:hover {
+    background-color: white;
+    color:blueviolet;
+}
